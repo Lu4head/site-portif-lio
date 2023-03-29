@@ -75,3 +75,14 @@ section{
     display: none;
     text-shadow: none;
 }
+
+.home-content{
+    display: inline-block;
+    text-align:left;
+}
+
+.home-image{
+    float: left;
+    display: block;
+    text-align:right;
+}
