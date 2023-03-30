@@ -13,7 +13,7 @@
 }
 
 :root {
-    --cor-fundo-pr:	rgba(5,14,29,255);
+    --cor-fundo-pr:	#050e1d;
     --cor-fundo-sc:	#4F4F4F;
     --cor-texto: #a99565;
     --cor-principal: #eedec2;
@@ -144,10 +144,11 @@ span{
 }
 
 .about-image img{
-    width: 30vw;
+    width: 28vw;
 }
 
 .about{
+    background-image: linear-gradient(to bottom,var(--cor-fundo-pr) 50%,#0b1b36);
     display: flex;
     justify-content: center;
     align-items: center;
